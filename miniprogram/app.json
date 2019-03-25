@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/password",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib"
+  ],
+  "tabBar": {
+    "custom": false,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "解锁",
+        "iconPath": "/icon/lock.png",
+        "selectedIconPath": "/icon/unlock_fill.png"
+      },
+      {
+        "pagePath": "pages/index/password",
+        "text": "密钥",
+        "iconPath": "/icon/qrcode.png",
+        "selectedIconPath": "/icon/qrcode_fill.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "智能锁二步验证 云开发",
+    "navigationBarTextStyle": "black"
+  }
+}
